@@ -1,0 +1,7 @@
+name = input(print("What is your name? "))
+print ("Hi,"+ str(name) +"!")
+firstnum = input(print("pick a number 1-10: "))
+secondnum = input(print("Pick a second number 1-10: "))
+symbol = input(print("Pick between, -, +, /, x"))
+print("loading your equation...")
+print(str(firstnum)+str(symbol)+str(secondnum))
